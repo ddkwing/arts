@@ -19,3 +19,7 @@ func hasCycle(head *ListNode) bool {
 	}
 	return false
 }
+
+func main() {
+	hasCycle(structures.Ints2List([]int{1, 2, 3}))
+}
